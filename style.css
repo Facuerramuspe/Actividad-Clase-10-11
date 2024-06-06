@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #39bbb6;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+#banner {
+    background: url('fotos/02426c36237803aa0e792aef030ac06e.jpg') no-repeat center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h1 {
+    position: relative;
+    top: -200px;
+    color: #000000;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    padding: 1rem;
+    text-align: center;
+}
+
+#sobremi h2 {
+    color: rgb(0, 0, 0);
+}
+#sobremi p {
+    border: 5px solid #39bbb6;
+    margin: 2rem auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    max-width: 80%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #39bbb6;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+footer .social-media a {
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+
+footer .social-media img {
+    width: 24px;
+}
+
+footer .contacto-info p {
+    margin: 0.5rem 0;
+}
